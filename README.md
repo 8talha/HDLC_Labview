@@ -31,3 +31,7 @@ For Conversion of bit to byte format refer to this snippet
 
 
 Link: http://forums.ni.com/t5/LabVIEW/Computing-CRC/m-p/825331#M375052
+
+**Example Project Requirements: **
+1. Labview 
+2. MyRIO

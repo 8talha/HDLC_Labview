@@ -27,4 +27,7 @@ Currently this is configured for detecting (01111110) 0x7E Pattern. It can be co
 Get Generic CRC calculation VI from this link (from Matthew_Kelton) specify desire polynomial and other parameters. Input to this VI should be in Byte Format and it should include Address Control and Payload Field not the FCS field.
 For Conversion of bit to byte format refer to this snippet
  
+ ![image](https://user-images.githubusercontent.com/18642297/167613379-ae7c6922-ead7-43a9-864b-409035a57dc3.png)
+
+
 Link: http://forums.ni.com/t5/LabVIEW/Computing-CRC/m-p/825331#M375052

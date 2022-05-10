@@ -18,6 +18,8 @@ Synchronous Serial Receiver cards can also be used for this process.
 3.	After Sampling Data extract message with in flag, place [HDLC] Flag Check.vi and specify minimum length of message in order to make sure no consecutive Flag detected. 
 Currently this is configured for detecting (01111110) 0x7E Pattern. It can be configured for any other flag.
 4.	Next Step is bit stuffing which occurs if data is in Synchronous mode. Flag has a unique binary pattern and, in order to avoid that the data field to transmit contains the same pattern, "zero-bit insertion" technique is used. [HDLC] Zero Bit Stuffing.vi VI does both Receiving and transmitting part. Place this VI in transmitting chain after complete message created including all four fields of HDLC and Wire False to "Read Operation(T)" button. For Reception After extracting message within flag (by using [HDLC] Flag Check.vi) place this VI and wire True to "Read Operation(T)" button.
+
+
 ![image](https://user-images.githubusercontent.com/18642297/167612355-11488a62-0a71-4fbb-ab03-9eb7f2ce8959.png)
 
 
